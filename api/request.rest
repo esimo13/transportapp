@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/locations
+
+###
+
+POST http://localhost:3001/api/locations
+Content-Type: application/json
+
+{
+  "latitude": 37.7749,
+  "longitude": -122.4194
+}
